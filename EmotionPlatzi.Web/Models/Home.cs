@@ -10,5 +10,6 @@ namespace EmotionPlatzi.Web.Models
         public int Id { get; set; }
         public string WelcomeMessage { get; set; }
         public string FooterMessage { get; set; } = "Footer by @Frank Monsalve";
+        public string Footer { get; set; } = "Created by Frank Monsalve";
     }
 }
